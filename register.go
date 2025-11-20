@@ -5,7 +5,7 @@ import (
 	"github.com/grafana/xk6-sql/sql"
 
 	// Blank import required for initialization of driver.
-	_ "github.com/solcates/go-sql-bigquery"
+	_ "github.com/viant/bigquery"
 )
 
 func init() {
